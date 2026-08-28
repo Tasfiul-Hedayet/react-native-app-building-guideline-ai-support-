@@ -36,7 +36,7 @@ bcuz it's large in size and it's including Debugging console. (Only for develope
 3. Release only the arm-64-v8a for android, don't build the rest 3. 
 Bcuz they're for old phones and emulators. (Only build 4 of them when Releaseing on play store)
 
-#if you're using vps (for my system)
+# if you're using vps (for my system)
 
 Download from vps 
 * open in termux 
