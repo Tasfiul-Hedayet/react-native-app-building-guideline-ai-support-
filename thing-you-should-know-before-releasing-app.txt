@@ -6,6 +6,14 @@
   a prompt based on your given description using 
   react native cli. 
 
++ add 2 extra pages - 
+- about page 
+( Tasfiul Hedayet
+Version: 1.0.0
+Made with ❤️
+in Bangladesh ) 
+- changelog page with version .
+
 ## releasing apk (things you should know)
 
 1. For apk build only Release apk for small size and user friendly. Don't use the debug apk, 
