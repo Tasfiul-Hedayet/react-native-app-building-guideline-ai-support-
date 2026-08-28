@@ -39,12 +39,12 @@ Bcuz they're for old phones and emulators. (Only build 4 of them when Releaseing
 #if you're using vps (for my system)
 
 Download from vps 
-> open in termux 
-> cp app.apk app.apk.zip 
-> termux-share app.apk.zip 
-> open with rar app 
-> select send option 
-> dm someone in telegram 
-> download the file in telegram 
-> remove .zip and it converted to .apk automatically 
-> install it
+* open in termux 
+* cp app.apk app.apk.zip 
+* termux-share app.apk.zip 
+* open with rar app 
+* select send option 
+* dm someone in telegram 
+* download the file in telegram
+* remove .zip and it converted to .apk automatically 
+* install it
