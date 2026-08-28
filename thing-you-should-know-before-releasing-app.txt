@@ -1,3 +1,5 @@
+## Prompt Part - 
+
 ## If you build a existing app use this technique- 
 
 * go to play store > choose the app you like 
@@ -17,6 +19,12 @@ in Bangladesh )
 - changelog page (with version)
 
 - system page (system, dark, light)
+
+## After build the apk - 
+
+- run testing for the app before releasing the apk.
+- run smoke test for finding bugs and issues. if satisfied, then release the apk.
+
 
 ## releasing apk (things you should know)
 
