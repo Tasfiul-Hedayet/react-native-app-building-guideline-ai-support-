@@ -1,6 +1,6 @@
 ## Prompt Part - 
 
-## If you build a existing app use this technique- 
+# If you build a existing app use this technique- 
 
 * go to play store > choose the app you like 
 * copy the description including the features 
@@ -26,7 +26,7 @@ in Bangladesh )
 - run smoke test for finding bugs and issues. if satisfied, then release the apk.
 
 
-## releasing apk (things you should know)
+## Releasing the apk (things you should know)
 
 1. For apk build only Release apk for small size and user friendly. Don't use the debug apk, 
 bcuz it's large in size and it's including Debugging console. (Only for developers)
