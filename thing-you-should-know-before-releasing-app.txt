@@ -1,3 +1,11 @@
+## If you build a existing app use this technique- 
+
+* go to play store > choose the app you like 
+* copy the description including the features 
+* then paste it to chatgpt/deepseek to generate 
+  a prompt based on your given description using 
+  react native cli. 
+
 ## releasing apk (things you should know)
 
 1. For apk build only Release apk for small size and user friendly. Don't use the debug apk, 
