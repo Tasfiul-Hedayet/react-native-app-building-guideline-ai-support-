@@ -6,13 +6,17 @@
   a prompt based on your given description using 
   react native cli. 
 
-+ add 2 extra pages - 
++ add 3 extra pages - 
+
 - about page 
 ( Tasfiul Hedayet
 Version: 1.0.0
 Made with ❤️
 in Bangladesh ) 
-- changelog page with version .
+
+- changelog page (with version)
+
+- system page (system, dark, light)
 
 ## releasing apk (things you should know)
 
