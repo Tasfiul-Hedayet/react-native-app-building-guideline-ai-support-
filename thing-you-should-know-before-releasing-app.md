@@ -40,7 +40,13 @@ Bcuz they're for old phones and emulators. (Only build 4 of them when Releaseing
 
 # if you're using vps (for my system)
 
-Download from vps 
+## Download from vps 
+## easiest way 
+* tap on the apk file
+* it will selected > then click on the 3 dots > download
+* it will directly download as a apk file in your phone
+  
+## another way 
 * open in termux 
 * cp app.apk app.apk.zip 
 * termux-share app.apk.zip 
