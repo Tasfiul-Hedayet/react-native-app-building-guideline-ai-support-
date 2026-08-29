@@ -1,4 +1,4 @@
-# Prompt Part - 
+6# Prompt Part - 
 
 ## If you build a existing app use this technique- 
 
@@ -35,6 +35,8 @@ bcuz it's large in size and it's including Debugging console. (Only for develope
 
 3. Release only the arm-64-v8a for android, don't build the rest 3. 
 Bcuz they're for old phones and emulators. (Only build 4 of them when Releaseing on play store)
+
+4. Allocate 2GB ram when releasing the apk for faster build
 
 # if you're using vps (for my system)
 
