@@ -1,4 +1,4 @@
-# How to avoid hardcoded credentials in react native app 
+8# How to avoid hardcoded credentials in react native app 
 (bcuz if we keep .env file inside the app, attacker
 can decompile and see the hardcoded credentials)
 
@@ -112,3 +112,26 @@ Database Supabase Cloud Accessed securely by the function
 You nailed it! This separation keeps your sensitive keys safe on the server while your app just makes simple HTTP calls. 🚀
 
 Need help with the actual deployment commands or writing your first edge function?
+
+
+
+
+🔐 Security Comparison
+
+Approach Pros Cons
+Edge Functions • No server to maintain • Auto-scaling • Supabase handles auth • Built-in rate limiting • Cold starts possible • Limited to 10s execution
+Custom Server • Full control • Custom caching • Complex logic possible • Need to host/maintain • Extra costs • More setup work.
+
+
+✅ Which Approach to Choose?
+
+· Edge Functions: Best for most use cases, especially if you're already on Supabase
+· Custom Server: Better if you need complex business logic, external API calls, or already have a backend
+
+Important Note:
+
+Even with a proxy, you'll still need:
+
+· Authentication (JWT tokens passed from app to server)
+· The anon key in your app for authentication flows
+· RLS policies on your Supabase tables (defense in depth)
